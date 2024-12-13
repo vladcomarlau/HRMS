@@ -45,7 +45,7 @@
   - Scatter plot of employees' seniority, age and evaluation
 - Accounts manager:
   -  Modify, remove accounts
-      - Attempting to remove accounts with subordinates will prompt the user to select a new manager in order to transfer the subordinates to it before account deletion takes action
+      - Attempting to remove accounts with subordinates will prompt the user to select a new manager in order to transfer the subordinates to it before account deletion takes place
   -  Account creation
   -  Team manager:
       - Create a new team by selecting a manager and subordinates
