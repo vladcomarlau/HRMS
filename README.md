@@ -9,13 +9,13 @@
 ## Features
 - 3 Types of users (ADMIN, MANAGER, USER)
     - ADMINISTRATOR can create and manage accounts. MANAGER can modify teams, salaries, profiles, leaves and performance evaluations. USER has read-only rights (except for his own profile)
-    - management pages conditionally appear based on user type
+    - Management pages conditionally appear based on user type
     - API checks for user permissions before any action is taken
 - Personal profile
-  - displays seniority in the organisation, direct manager, direct colleagues
-  - avatar management
-  - personal information management
-  - profiles can be shared using a link
+  - Displays seniority in the organisation, direct manager, direct colleagues
+  - Avatar management
+  - Personal information management
+  - Profiles can be shared using a link
 - Serach bar present at all times in the menu bar for looking up employees profiles
 - Organigram (Hierarchy of the company)
   - All teams visualisation (with hierarchy tree navigation)
