@@ -37,7 +37,7 @@
   - List of all leave days requests initiated and their status and approver name
   - Leaves manager to modify any organisation user's leave requests
     - View of subordinates leave requests at the top
-    - Modify available leave days of any user
+    - Modify available leave days that can be taken, for any user
   - Holidays manager: change the holidays that appear in all users calendars
 - Reports (with graphs):
   - Correlation coefficient between salaries and evaluations of a selected user
