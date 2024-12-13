@@ -34,7 +34,7 @@
   - Salaries manager for modifying salary packages of any account. Also displays organisational statistics (average salary, total expenses, most expensive salary component)
 - Leaves:
   - Calendar for viewing and initiating leave days requests to be approved by a superior
-  - List of all leave days requests initiated and their status
+  - List of all leave days requests initiated and their status and approver name
   - Leaves manager to modify any organisation user's leave requests
     - View of subordinates leave requests at the top
     - Modify available leave days of any user
