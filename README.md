@@ -16,7 +16,7 @@
   - Avatar management
   - Personal information management
   - Profiles can be shared using a link
-- Serach bar present at all times in the menu bar for looking up employees profiles
+- Search bar present at all times in the menu bar for looking up employees profiles
 - Organigram (Hierarchy of the company)
   - All teams visualisation (with hierarchy tree navigation)
   - Direct colleagues page
