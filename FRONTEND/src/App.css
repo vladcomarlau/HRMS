@@ -1,0 +1,279 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@Import url("https://unpkg.com/rc-year-calendar@latest/dist/rc-year-calendar.min.css");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animatedGradient {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.customForm::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(82, 82, 82);
+  opacity: 1; /* Firefox */
+}
+
+.customForm:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(82, 82, 82);
+}
+
+.customForm::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(82, 82, 82);
+}
+
+.dropdown-content {
+  display: static;
+  position: absolute;
+  width: 70%;
+  max-width: 350px;
+  right: 10%;
+  left: 0px;
+  top:40px;
+  padding: 10px;
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 5px;
+  overflow: hidden;
+  max-height: 500px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.07);
+  z-index: 1;
+}
+
+.customHover:hover {
+  color:black;
+  background-color: #f3f3f3;
+}
+
+.customTeamCell {
+  display: table-cell;
+  margin: 0em;
+  padding: 1em;
+  height: auto;
+  border: solid;
+  vertical-align:top;
+}
+
+.vl {
+  border-left: 1px solid rgb(219, 219, 219);
+  height: 40px;
+  width: 50%;
+  margin: -15px 0px 6px 50%;
+}
+
+.float2Bottom {
+  position : absolute;
+  bottom: 0;
+}
+
+.button-36 {
+  background-color: #00678d;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(0, 81, 157, 0.252) 0 1px 5px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+.p-organizationchart-node-content {
+  padding: 0;
+}
+
+.p-organizationchart-line-left {
+  border-right: 2px solid rgb(167, 167, 167);
+}
+
+.p-organizationchart-line-right {
+  border-left: 2px solid rgb(167, 167, 167);
+}
+
+.p-organizationchart-line-down {
+  border-left: 2px solid rgb(167, 167, 167);
+}
+
+td.p-organizationchart-line-right.p-organizationchart-line-top {
+  border-top: 2px solid rgb(167, 167, 167);
+}
+
+td.p-organizationchart-line-left.p-organizationchart-line-top {
+  border-top: 2px solid rgb(167, 167, 167);
+}
+
+.p-node-toggler {
+  background-color: rgba(255,255,255,0);
+  color: black;
+  padding-top:10px;
+}
+
+.organigrama {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.orgShadow {
+  box-shadow: 0px 4px 3px rgba(0,0,0,0.15);
+}
+
+.custom-sm-font{
+  font-size: 14px;
+}
+
+.custom-sm-font2{
+  font-size: 14px;
+}
+
+.custom-md-font{
+  font-size: 18px;
+}
+
+.p-inplace-content-close {
+  background-color: #0d6efd;
+  border: 1px solid #0b5ed7; 
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.p-metergroup-meter-container {
+  height:25px;
+}
+
+.odihna {
+  background: rgb(229,255,213);
+  background: linear-gradient(90deg, rgba(229,255,213,1) 40%, rgba(145,255,61,1) 75%);
+}
+
+.liberLegal {
+  background: rgb(253,245,215);
+  background: linear-gradient(90deg, rgba(253,245,215,1) 40%, rgba(255,219,102,1) 75%);
+}
+
+.faraPlata {
+  background: rgb(232,232,232);
+  background: linear-gradient(90deg, rgba(232,232,232,1) 40%, rgba(176,174,174,1) 75%);
+}
+
+.medical {
+  background: rgb(242,207,213);
+  background: linear-gradient(90deg, rgba(242,207,213,1) 40%, rgba(250,57,90,1) 75%);
+}
+
+.paternal {
+  background: rgb(218,241,252);
+  background: linear-gradient(90deg, rgba(218,241,252,1) 40%, rgba(107,208,255,1) 75%);
+}
+
+.maternitate {
+  background: rgb(240,212,252);
+  background: linear-gradient(90deg, rgba(240,212,252,1) 40%, rgba(217,128,255,1) 75%);
+}
+
+.formareProfesionala {
+  background: rgb(218,211,251);
+  background: linear-gradient(90deg, rgba(218,211,251,1) 40%, rgba(143,117,255,1) 75%);
+}
+
+.calendar {
+  height: var(--height, 110%);
+}
+
+.showMe {
+  animation: cssAnimation 0s 2s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
+
+.languageButton {
+  transition: 0.3s;
+  background-color: none;
+  user-select: none;
+  border: 1px solid rgba(255, 255, 255, 0.359);
+}
+
+.languageButton:hover {
+  transition: 0.3s;
+  background-color: #ffffff21;
+}
