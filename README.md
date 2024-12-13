@@ -17,7 +17,7 @@
   - Personal information management
   - Profiles can be shared using a link
 - Search bar present at all times in the menu bar for looking up employees profiles
-- Organigram (Hierarchy of the company)
+- Organigram (Hierarchy graph structure of the company)
   - All teams visualisation (with hierarchy tree navigation)
   - Direct colleagues page
   - Subordinates page
