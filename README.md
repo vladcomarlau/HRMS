@@ -23,6 +23,7 @@
   - Subordinates page
 - Performance:
   - Current evaluation grading with history (based on 5 criterias: Communication, Efficiency, Expertise, Initiative, Leadership) and feedback
+  - Feedback of an evaluation can be generated using OpenAi API
   - Teams performance page with the average grade of each team
   - View individual performance grades of eeach team member (emphasizing the least and most performant criterias)
   - Evaluations manager for the entire organization
