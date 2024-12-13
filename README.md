@@ -30,7 +30,7 @@
 - Salary:
   - Evolution of salaries can be viewed as a graph
   - View current salary package as well as history for each salary component (base, performance bonus, projects bonus, meal tickets, life insurance, benefits)
-  - Salaries of teams page shows the total costs of the organisation for specific teams as well as individual member salaries
+  - Salaries of teams page shows the total costs of the organisation with each team as well as individual member salaries
   - Salaries manager for modifying salary packages of any account. Also displays organisational statistics (average salary, total expenses, most expensive salary component)
 - Leaves:
   - Calendar for viewing and initiating leave days requests to be approved by a superior
