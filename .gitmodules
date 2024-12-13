@@ -1,0 +1,3 @@
+[submodule "FRONTEND"]
+	path = FRONTEND
+	url = ./FRONTEND
