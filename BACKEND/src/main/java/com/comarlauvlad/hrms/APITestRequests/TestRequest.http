@@ -1,0 +1,71 @@
+### SIGN IN MANAGER
+POST http://localhost:8082/signin
+Content-Type: application/json
+
+{
+  "email": "1@1",
+  "password": "1"
+}
+
+> {%
+    client.global.set("auth_token", response.body.token);
+%}
+
+### SIGN IN ADMIN
+POST http://localhost:8082/signin
+Content-Type: application/json
+
+{
+  "email": "4@4",
+  "password": "4"
+}
+
+> {%
+    client.global.set("auth_token", response.body.token);
+%}
+
+### SIGN IN USER
+POST http://localhost:8082/signin
+Content-Type: application/json
+
+{
+  "email": "3@3",
+  "password": "3"
+}
+
+> {%
+    client.global.set("auth_token", response.body.token);
+%}
+
+### POST
+POST http://localhost:8082/publicHolidays
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+{
+  "inceput" : "2024-03-11",
+  "sfarsit" : "2024-03-11",
+  "durataZileLucratoare" : 1,
+  "numeAprobator" : "VLAD"
+}
+
+### GET
+GET http://localhost:8082/concedii
+Authorization: Bearer {{auth_token}}
+
+### DELETE
+DELETE http://localhost:8082/evaluari/2/3
+Authorization: Bearer {{auth_token}}
+
+### PUT
+PUT http://localhost:8082/concedii/aproba/4
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+
+### GET
+GET http://localhost:8082/users
+Authorization: Bearer {{auth_token}}
+
+### GET
+GET http://localhost:8082/users/2/hierarchy
+Authorization: Bearer {{auth_token}}

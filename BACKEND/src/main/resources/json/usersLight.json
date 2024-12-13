@@ -1,0 +1,41 @@
+[
+  {
+    "firstName": "Petru",
+    "lastName": "Luca",
+    "email": "1@1",
+    "password": "1",
+    "role": "ADMIN",
+    "pozitie": "Team Leader",
+    "cnp": "1951811467918",
+    "telefon": "0743754817",
+    "adresa": "Str. Inspiratiei, nr. 36",
+    "dataNasterii": "1988-06-17",
+    "dataAngajarii": "2022-05-20"
+  },
+  {
+    "firstName": "Vlad-Constantin",
+    "lastName": "Comarlau",
+    "email": "2@2",
+    "password": "2",
+    "role": "ADMIN",
+    "pozitie": "Software Engineer",
+    "cnp": "1920423112233",
+    "telefon": "0743221432",
+    "adresa": "Str. Secerisului, nr. 8",
+    "dataNasterii": "1995-03-06",
+    "dataAngajarii": "2020-12-01"
+  },
+  {
+    "firstName": "Teodor",
+    "lastName": "Stefan",
+    "email": "3@3",
+    "password": "1",
+    "role": "ADMIN",
+    "pozitie": "UX Designer",
+    "cnp": "1951213432122",
+    "telefon": "0743751951",
+    "adresa": "Str. Soarelui, nr. 1",
+    "dataNasterii": "2003-12-10",
+    "dataAngajarii": "2024-01-02"
+  }
+]

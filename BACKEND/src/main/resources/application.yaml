@@ -1,0 +1,25 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: hrms
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: jdbc:h2:file:./src/main/resources/BazaDeDate
+    driver-class-name: org.h2.Driver
+    username: backend
+    password: backend
+  h2:
+    console:
+      enabled: true
+
+token:
+  signing:
+    key: 413A4439272B8B6250655368566E5970337336163979244226452949404F6351
