@@ -6,7 +6,7 @@
 - Frontend using React (Javascript) and Prime React with Axios for communication with backend
 - OpenAI API calls for employee performance feedback generation
 
-[Video demo](https://www.youtube.com/watch?v=e_mEPLk1xgM) <br>
+[Demo video](https://www.youtube.com/watch?v=e_mEPLk1xgM) <br>
 [![Video](https://img.youtube.com/vi/e_mEPLk1xgM/0.jpg)](https://www.youtube.com/watch?v=e_mEPLk1xgM)
 
 
