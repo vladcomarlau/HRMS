@@ -5,8 +5,9 @@
 - Backend in Java using Spring Boot (RESTful API), Spring Security (JWT, Authentication), Spring Data (JPA), Maven, H2 Database, Lombok
 - Frontend using React (Javascript) and Prime React with Axios for communication with backend
 - OpenAI API calls for employee performance feedback generation
-- 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/e_mEPLk1xgM/0.jpg)](https://www.youtube.com/watch?v=e_mEPLk1xgM)
+
+[Video demo](https://www.youtube.com/watch?v=e_mEPLk1xgM) <br>
+[![Video](https://img.youtube.com/vi/e_mEPLk1xgM/0.jpg)](https://www.youtube.com/watch?v=e_mEPLk1xgM)
 
 
 ## Features
