@@ -61,7 +61,7 @@
 ## Running the project
 1. Clone the repo
 2. Open the BACKEND folder in Intellij IDEA
-3. Add an OpenAI API key in src/main/resources/application.properties (app.OpenAiApiKey = <YOUR_KEY>)
+3. Add an OpenAI API key. Better with a secret manager. [src/main/resources/application.properties (app.OpenAiApiKey = <YOUR_KEY>)]
 4. Build & run the Spring BACKEND
 5. Open the FRONTEND folder in terminal
 6. Run npm install --legacy-peer-deps
